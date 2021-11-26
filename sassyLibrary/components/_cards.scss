@@ -1,12 +1,14 @@
 @use "../abstracts" as *;
+@use "sass:math";
 .card {
   display: block;
   padding: $base-padding;
-  border: $base-border-thickness solid $white-color;
+  border: $base-border-thickness solid map-get($colors, "white");
   box-shadow: $base-box-shadow;
+  border-radius: math.div($base-border-radius, 4);
 
   & &-title {
-    font-size: $base-font-size;
+    font-size: $font-size-lg;
     padding-bottom: $base-padding;
     font-weight: bold;
   }
@@ -17,3 +19,8 @@
     }
   }
 }
+
+//@debug "Hello World";
+//@debug math.div(10, 3);
+//@debug math.floor(2.6);
+//@debug math.max(1px, 20px, 15px, 12px);
