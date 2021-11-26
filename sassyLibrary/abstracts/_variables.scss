@@ -1,15 +1,17 @@
 //FONTS
 $font: Poppins;
+$base-font-size: 1rem;
 //COLORS
-$primaryColor: #326dee;
-$secondaryColor: #1ac888;
-$errorColor: #d32752;
-$infoColor: #f6c31c;
-$whiteColor: #efefef;
-$blackColor: rgb(46, 46, 46);
+$primary-color: #326dee;
+$secondary-color: #1ac888;
+$error-color: #d32752;
+$info-color: #f6c31c;
+$white-color: #efefef;
+$black-color: rgb(0, 0, 0);
 //SPACING
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
 //BORDERS
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
+$base-box-shadow: 1px 3px 5px rgba($black-color, 0.1);
